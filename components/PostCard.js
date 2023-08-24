@@ -13,7 +13,7 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
     <>
    
       <Container>
-      <div class={styles['header-container']}>
+      <div className={styles['header-container']}>
     <div className={styles['logo']}>
       <Image src="/images/logo.png" alt="Logo" className={styles['logo-image']} />
     </div>
@@ -44,7 +44,7 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
   
 
 
-    <div className={styles["profile-cont"]} style={{ backgroundImage: `url(${coverPhoto})` }}>
+    <div className={styles["profile-cont"]} style={{ backgroundImage: `url(${coverPhoto})`, backgroundPosition: "center", backgroundSize:"cover", backgroundRepeat: "no-repeat" }}>
             <div className={styles["profile-photo"]}>
               <Image src={profileImage} width={40} height={40} alt="Profile Photo" />
             </div>

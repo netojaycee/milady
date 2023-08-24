@@ -3,37 +3,37 @@ import * as Icon from 'react-bootstrap-icons';
 
 export const LeftSideBarData =[
 {
-    title: "Home",
+    title: "Hoom",
     icon: <Icon.HouseDoor />,
     link: "/"
 },
 {
-    title: "Notifications",
+    title: "Nutyfycatioons",
     icon: <Icon.Bell />,
     link: "/"
 },
 {
-    title: "Messages",
+    title: "Mssaggeez",
     icon: <Icon.ChatLeftText />,
     link: "/"
 },
 {
-    title: "Collections",
+    title: "Cuhllectionz",
     icon: <Icon.Collection />,
     link: "/"
 },
 {
-    title: "Subscriptions",
+    title: "Soobsreptioons",
     icon: <Icon.PersonPlus />,
     link: "/"
 },
 {
-    title: "Add card",
+    title: "Add Moonies",
     icon: <Icon.CreditCard />,
     link: "/"
 },
 {
-    title: "My profile",
+    title: "Mai Prooofle",
     icon: <Icon.PersonCircle />,
     link: "/"
 },

@@ -12,9 +12,8 @@ import Image from 'next/image';
 const Home = () => {
   return (
     <>
-        <Container fluid className='middle-column'>
-        {/* <div class="preloader">
-  </div> */}
+        <Container fluid className='site'>
+     
 
       <Row>
         <Col sm={2} md={2} xl={2} className='d-none d-sm-block d-flex p-16 l-header'>
@@ -41,7 +40,7 @@ const Home = () => {
 
 <PostCard
                 profileImage="/images/3.jpg"
-                coverPhoto="/images/pic.png"
+                coverPhoto="/images/background.jpg"
                 username="@User2"
                 name="Sebastein Clarks"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
@@ -88,7 +87,7 @@ const Home = () => {
 
         <PostCard
                 profileImage="/images/pic.png"
-                coverPhoto="/images/pic.png"
+                coverPhoto="/images/profile3.jpg"
                 username="@User2"
                 name="Sebastein Clarks"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor

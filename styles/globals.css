@@ -1,10 +1,22 @@
-.middle-column {
-  background-image: url("/images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.site {
+  
+  background-color: black;
+  
+  
 
 }
+
+/* .middle-column {
+  background-image: url("/images/background.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-content: center;
+  align-items: center;
+} */
+
+
 .no-padding {
   padding: 0 !important;
 }
@@ -45,6 +57,7 @@
 
 .preloader {
   background-image: url("/images/logoonlyfans.png");
+
   position: relative;
   width: 200px;
   height: 200px;

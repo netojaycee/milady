@@ -8,7 +8,7 @@ import PostCardImage from './PostCardImage';
 class RightSideBar extends Component {
     render() {
         return (
-            <div>
+            <div className='no-scroll'>
                 <Form.Control
               type="text"
               placeholder="Search"
@@ -27,14 +27,14 @@ class RightSideBar extends Component {
 {/* image card start */}
 <PostCardImage 
                 profileImage="/images/1.jpg"
-                coverPhoto="/images/pic.png"
+                coverPhoto="/images/profile1.png"
                 username="@User2"
                 name="Sebastein Clarks" 
 />
 
 <PostCardImage 
                 profileImage="/images/3.jpg"
-                coverPhoto="/images/pic.png"
+                coverPhoto="/images/background.jpg"
                 username="@User2"
                 name="Sebastein Clarks" 
 />
