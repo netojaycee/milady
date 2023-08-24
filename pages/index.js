@@ -24,8 +24,8 @@ const Home = () => {
         <PostCard
               profileImage="/images/2.jpg"
               coverPhoto="/images/profile1.png"
-              username="@User1"
-              name="John Doe"
+              username="@lmonroe"
+              name="Lana Monroe"
               content=" Proin nec vehicula ligula. Quisque vitae purus nec est sollicitudin
               laoreet. Morbi malesuada ligula ac mauris placerat, eu gravida arcu
               iaculis. Nunc a enim sed tortor luctus fermentum. Sed ut tristique
@@ -41,8 +41,8 @@ const Home = () => {
 <PostCard
                 profileImage="/images/3.jpg"
                 coverPhoto="/images/background.jpg"
-                username="@User2"
-                name="Sebastein Clarks"
+                username="@rebeca"
+                name="Rebeca Vega"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
               aliquam malesuada. Duis vitae convallis orci. Vestibulum fringilla
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est
@@ -56,8 +56,8 @@ const Home = () => {
 <PostCard
                 profileImage="/images/pic.png"
                 coverPhoto="/images/pic.png"
-                username="@User2"
-                name="Sebastein Clarks"
+                username="@melrose"
+                name="MelRose"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
               aliquam malesuada. Duis vitae convallis orci. Vestibulum fringilla
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est
@@ -72,8 +72,8 @@ const Home = () => {
         <PostCard
                 profileImage="/images/pic.png"
                 coverPhoto="/images/pic.png"
-                username="@User2"
-                name="Sebastein Clarks"
+                username="@tillytoy"
+                name="Tilly Toy"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
               aliquam malesuada. Duis vitae convallis orci. Vestibulum fringilla
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est
@@ -88,8 +88,8 @@ const Home = () => {
         <PostCard
                 profileImage="/images/pic.png"
                 coverPhoto="/images/profile3.jpg"
-                username="@User2"
-                name="Sebastein Clarks"
+                username="@mthorne"
+                name="Mia Thorne"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
               aliquam malesuada. Duis vitae convallis orci. Vestibulum fringilla
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est
@@ -105,8 +105,8 @@ const Home = () => {
         <PostCard
                 profileImage="/images/1.jpg"
                 coverPhoto="/images/pic.png"
-                username="@User2"
-                name="Sebastein Clarks"
+                username="@bbumzy"
+                name="Bella Bumzy"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
               aliquam malesuada. Duis vitae convallis orci. Vestibulum fringilla
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est

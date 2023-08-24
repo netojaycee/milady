@@ -28,29 +28,29 @@ class RightSideBar extends Component {
 <PostCardImage 
                 profileImage="/images/1.jpg"
                 coverPhoto="/images/profile1.png"
-                username="@User2"
-                name="Sebastein Clarks" 
+                username="@riley"
+                name="Riley" 
 />
 
 <PostCardImage 
                 profileImage="/images/3.jpg"
                 coverPhoto="/images/background.jpg"
-                username="@User2"
-                name="Sebastein Clarks" 
+                username="@ccurse"
+                name="Cassie curses" 
 />
 
 <PostCardImage 
                 profileImage="/images/2.jpg"
                 coverPhoto="/images/pic.png"
-                username="@User2"
-                name="Sebastein Clarks" 
+                username="@Sjay"
+                name="Sheyla Jay" 
 />
 
 <PostCardImage 
                 profileImage="/images/1.jpg"
                 coverPhoto="/images/pic.png"
-                username="@User2"
-                name="Sebastein Clarks" 
+                username="@Lvent"
+                name="Luna Ventura" 
 />
 {/* image card end */}
 

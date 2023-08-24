@@ -32,12 +32,8 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
 
 
 <div style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }}>
-      <video controls width="100%" height="100%">
-        <source
-          src={videoLink}
-          type="video/mp4"
-        />
-        Your browser does not support the video tag.
+      <video autoPlay muted loop width="100%" height="100%">
+        <source src={videoLink} type="video/mp4" />
       </video>
     </div>
 
