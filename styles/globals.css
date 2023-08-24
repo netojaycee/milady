@@ -1,13 +1,10 @@
-:root {
-    --bg-color: #161618;
-    --text-color: #f6f7f8;
-    --bg-color-header: #18181a;
-    --overlay-color: rgba(0,0,0,.6);
-    --title-color: #fefefe;
-    --marked-color: #242529
-  }
-  
+.middle-column {
+  background-image: url("/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
+}
 .no-padding {
   padding: 0 !important;
 }
@@ -27,4 +24,45 @@
   overflow-y:auto;
  
   
+}
+
+.primarys {
+  background-color: pink;
+  color:rgb(2, 123, 228);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+
+/* body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+} */
+
+.preloader {
+  background-image: url("/images/logoonlyfans.png");
+  position: relative;
+  width: 200px;
+  height: 200px;
+  animation: expandContract 2s infinite;
+}
+
+.preloader img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes expandContract {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
 }

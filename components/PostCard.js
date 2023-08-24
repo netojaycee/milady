@@ -15,7 +15,7 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
       <Container>
       <div class={styles['header-container']}>
     <div className={styles['logo']}>
-      <Image src="/images/logoonlyfans.png" alt="Logo" className={styles['logo-image']} />
+      <Image src="/images/logo.png" alt="Logo" className={styles['logo-image']} />
     </div>
     <div className={styles['header-content']}>
       <div className={styles['upper-text']}>
@@ -28,11 +28,11 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
       </div>
     </div>
   </div>
-      <div><p>{content}</p></div>
+      <div className={styles.content}><p>{content}</p></div>
 
 
-<div style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }}>
-      <video controls width="100%" height="200px">
+<div style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }}>
+      <video controls width="100%" height="100%">
         <source
           src={videoLink}
           type="video/mp4"
@@ -55,7 +55,7 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
             </div>
           </div>
 
-  <Row>
+  <Row className='text-white'>
     <Col xs={1}><Icon.Heart /></Col>
     <Col xs={1}><Icon.Chat /></Col>
     <Col xs={3}><div><span><Icon.CurrencyDollar /></span>send Tip</div></Col>
@@ -63,7 +63,7 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
   </Row>
 
   <div className={styles['likes-count']}>
-        <span>{likes} Likes</span>
+        <span className='text-white'>{likes} Likes</span>
          </div>
       </Container>
   

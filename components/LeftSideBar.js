@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import Link from 'next/link';
 import styles from '/styles/LeftSideBar.module.css';
 import {LeftSideBarData} from "./LeftSideBarData"; 
 import * as Icon from 'react-bootstrap-icons';
@@ -24,12 +24,13 @@ const LeftSideBar = () => {
         }}>
             <div id={styles["icon"]}>{val.icon}</div>
             <div id={styles["title"]}>{val.title}</div>
+          
         </li>;
 
 
         })}
  <div>
-                <button className={styles["l-button-big"]}><span className={styles["plus"]}><Icon.Plus/></span>New Post</button>
+                <button className={styles["l-button-big"]}><span className={styles["plus"]}><Icon.Plus/></span>Join Coin</button>
                 
                 </div>
         </ul>
