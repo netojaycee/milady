@@ -1,0 +1,20 @@
+.suggestions-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  color: rgb(151, 151, 151);
+  display: flex;
+  font-size:medium;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.suggestions {
+  margin: 0;
+}
+
+.i-icons {
+  display: flex;
+  gap: 50px;
+}

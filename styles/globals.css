@@ -1,0 +1,30 @@
+:root {
+    --bg-color: #161618;
+    --text-color: #f6f7f8;
+    --bg-color-header: #18181a;
+    --overlay-color: rgba(0,0,0,.6);
+    --title-color: #fefefe;
+    --marked-color: #242529
+  }
+  
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.l-header {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y:hidden;
+ 
+  
+}
+.r-header {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y:auto;
+ 
+  
+}
