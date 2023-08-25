@@ -22,7 +22,7 @@ const Home = () => {
           <LeftSideBar />
         </Col>
         <Col xs={12} sm={10} md={10} xl={10} className='border-start border-end border-secondary px-0 py-16 middle-column d-flex flex-column justify-content-center align-items-center'>
-        <div className='text-success d-flex flex-column justify-content-center align-items-center mt-3'><h1>LET'S $OMF</h1>
+        <div className='text-success d-flex flex-column justify-content-center align-items-center mt-3'><h1>LET&apos;S $OMF</h1>
         <h3><a href=''>Join $OMF TELEGRAM</a></h3>
         <h3><a href=''>Follow $OMF on TWITTER</a></h3>
         </div>
