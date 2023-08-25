@@ -13,7 +13,7 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
     <>
    
       <Container>
-      <div className={styles['header-container']}>
+      {/* <div className={styles['header-container']}>
     <div className={styles['logo']}>
       <Image src="/images/logo.png" alt="Logo" className={styles['logo-image']} />
     </div>
@@ -27,11 +27,11 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
         <div className={styles['icon']}><Icon.ThreeDotsVertical /></div>
       </div>
     </div>
-  </div>
-      <div className={styles.content}><p>{content}</p></div>
+  </div> */}
+      {/* <div className={styles.content}><p>{content}</p></div> */}
 
 
-<div style={{ width: '100%', maxWidth: '600px', margin: '0 auto' }}>
+<div style={{ width: '100%', maxWidth: '600px', margin: '5px' }}>
       <video autoPlay muted loop width="100%" height="100%">
         <source src={videoLink} type="video/mp4" />
       </video>
@@ -43,6 +43,7 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
     <div className={styles["profile-cont"]} style={{ backgroundImage: `url(${coverPhoto})`, backgroundPosition: "center", backgroundSize:"cover", backgroundRepeat: "no-repeat" }}>
             <div className={styles["profile-photo"]}>
               <Image src={profileImage} width={40} height={40} alt="Profile Photo" />
+              
             </div>
             <div className={styles["profile-info"]}>
               <div className={styles["profile-name"]}>{name}</div>
@@ -51,16 +52,19 @@ const PostCard = ({ profileImage, coverPhoto, username, name, content, likes, vi
             </div>
           </div>
 
-  <Row className='text-white'>
+  {/* <Row className='text-white'>
     <Col xs={1}><Icon.Heart /></Col>
     <Col xs={1}><Icon.Chat /></Col>
     <Col xs={3}><div><span><Icon.CurrencyDollar /></span>send Tip</div></Col>
     <Col xs={7} className='text-end'><Icon.Bookmark /></Col>
-  </Row>
+  </Row> */}
 
-  <div className={styles['likes-count']}>
+  {/* <div className={styles['likes-count']}>
         <span className='text-white'>{likes} Likes</span>
-         </div>
+         </div> */}
+         <hr/>
+
+         
       </Container>
   
     

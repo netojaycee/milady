@@ -8,6 +8,8 @@ import LeftSideBar from '../components/LeftSideBar';
 import RightSideBar from '@/components/RightSideBar';
 import ButtonLink from '@/components/ButtonLink';
 import Image from 'next/image';
+import About from '@/components/About';
+import Picture from '@/components/Picture';
 
 const Home = () => {
   return (
@@ -23,7 +25,7 @@ const Home = () => {
        
         <PostCard
               profileImage="/images/2.jpg"
-              coverPhoto="/images/profile1.png"
+              coverPhoto="/images/pic-1.jpg"
               username="@lmonroe"
               name="Lana Monroe"
               content=" Proin nec vehicula ligula. Quisque vitae purus nec est sollicitudin
@@ -32,15 +34,16 @@ const Home = () => {
               nisl, a blandit tellus. Nullam tincidunt urna vel metus dapibus
               posuere."
               likes={10}
-              videoLink="/videos/1.mp4"
+              videoLink="/videos/vid-1.mp4"
         />
         <hr/>
         <ButtonLink />
+        
         <hr/>
 
 <PostCard
                 profileImage="/images/3.jpg"
-                coverPhoto="/images/background.jpg"
+                coverPhoto="/images/pic-2.jpg"
                 username="@rebeca"
                 name="Rebeca Vega"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
@@ -48,14 +51,15 @@ const Home = () => {
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est
               scelerisque, bibendum urna sit amet, facilisis libero."
               likes={108}
-              videoLink="/videos/2.mp4"
+              videoLink="/videos/vid-2.mp4"
         />
  <hr/>
         <ButtonLink />
+        
         <hr/>
 <PostCard
-                profileImage="/images/pic.png"
-                coverPhoto="/images/pic.png"
+                profileImage="/images/2.jpg"
+                coverPhoto="/images/pic-3.jpg"
                 username="@melrose"
                 name="MelRose"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
@@ -63,15 +67,16 @@ const Home = () => {
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est
               scelerisque, bibendum urna sit amet, facilisis libero."
               likes={108}
-              videoLink="/videos/3.mp4"
+              videoLink="/videos/vid-3.mp4"
         />
          <hr/>
         <ButtonLink />
+        
         <hr/>
 
         <PostCard
-                profileImage="/images/pic.png"
-                coverPhoto="/images/pic.png"
+                profileImage="/images/3.jpg"
+                coverPhoto="/images/pic-4.jpg"
                 username="@tillytoy"
                 name="Tilly Toy"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
@@ -79,15 +84,16 @@ const Home = () => {
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est
               scelerisque, bibendum urna sit amet, facilisis libero."
               likes={108}
-              videoLink="/videos/4.mp4"
+              videoLink="/videos/vid-4.mp4"
         />
          <hr/>
         <ButtonLink />
+        
         <hr/>
 
         <PostCard
-                profileImage="/images/pic.png"
-                coverPhoto="/images/profile3.jpg"
+                profileImage="/images/1.jpg"
+                coverPhoto="/images/pic-5.jpg"
                 username="@mthorne"
                 name="Mia Thorne"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
@@ -95,16 +101,17 @@ const Home = () => {
               ante nec nibh cursus, vel fringilla metus ultricies. Nulla nec est
               scelerisque, bibendum urna sit amet, facilisis libero."
               likes={108}
-              videoLink="/videos/5.mp4"
+              videoLink="/videos/vid-5.mp4"
         />
          <hr/>
         <ButtonLink />
+        
         <hr/>
 
 
-        <PostCard
+        {/* <PostCard
                 profileImage="/images/1.jpg"
-                coverPhoto="/images/pic.png"
+                coverPhoto="/images/r.jpg"
                 username="@bbumzy"
                 name="Bella Bumzy"
               content=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor
@@ -113,9 +120,13 @@ const Home = () => {
               scelerisque, bibendum urna sit amet, facilisis libero."
               likes={108}
               videoLink="/videos/6.mp4"
-        />
-         <hr/>
-        <ButtonLink />
+        /> */}
+         {/* <hr/> */}
+<About />
+         <hr />
+
+<Picture />
+      
         <hr/>
 
         </Col>

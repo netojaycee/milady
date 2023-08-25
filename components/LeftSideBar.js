@@ -4,6 +4,8 @@ import Link from 'next/link';
 import styles from '/styles/LeftSideBar.module.css';
 import {LeftSideBarData} from "./LeftSideBarData"; 
 import * as Icon from 'react-bootstrap-icons';
+import Button from 'react-bootstrap/Button';
+
 const LeftSideBar = () => {
   
   return (
@@ -29,8 +31,8 @@ const LeftSideBar = () => {
 
 
         })}
- <div>
-                <button className={styles["l-button-big"]}><span className={styles["plus"]}><Icon.Plus/></span>Join Coin</button>
+ <div className=''>
+                <Button href="https://twitter.com/OnlyMiladyFans" className={styles["l-button-big"]}>Cum sea mi hir</Button>
                 
                 </div>
         </ul>
