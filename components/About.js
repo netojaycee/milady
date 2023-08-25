@@ -3,9 +3,10 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div className='text-success pt-5 px-4'>
-          <h1 className='text-center'>About $OMF OnlyMiladyFans Token</h1>
+            <div className='text-success pt-2 px-4'>
+          <h1 className='text-center'>ieatcobrAbout $OMF OnlyMiladyFans Token</h1>
           <p>
+          
 
 In a realm where tokens weave connections tight,
 A community blossoms, bathed in digital light.
@@ -37,7 +38,8 @@ In this realm where the daring believe.
 For the token&apos;s potential is vast and bright,
 A future that shines like a guiding light.
 
-Disclaimer</p>
+</p><br/>
+<p>Disclaimer $OMF is a memecoin with no intrinsic value or expectation of financial return.</p>
           </div>
         );
     }

@@ -5,6 +5,7 @@ import styles from '/styles/LeftSideBar.module.css';
 import {LeftSideBarData} from "./LeftSideBarData"; 
 import * as Icon from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/Button';
+import Image from 'next/image';
 
 const LeftSideBar = () => {
   
@@ -14,8 +15,12 @@ const LeftSideBar = () => {
     
     <div>
         
-        <div>
-         <button className={styles["l-button"]}>Ja</button>
+        {/* <div>
+         <button className={styles["l-button"]}></button>
+         </div> */}
+
+         <div className='m-3'>
+            <Image src='/images/logo.png' width={48} height={48} quality={100} alt='logo' />
          </div>
          
 
@@ -31,8 +36,10 @@ const LeftSideBar = () => {
 
 
         })}
- <div className=''>
-                <Button href="https://twitter.com/OnlyMiladyFans" className={styles["l-button-big"]}>Cum sea mi hir</Button>
+ <div className="d-grid gap-2 mt-3 primarys">
+ <Button href="https://twitter.com/OnlyMiladyFans" variant="" size="sm">
+        <span className='primaryss'>Cum sea mi hir</span>
+      </Button>
                 
                 </div>
         </ul>

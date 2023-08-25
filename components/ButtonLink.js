@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 
 function ButtonLink() {
   return (
-    <div className="d-grid gap-2 m-3 primarys">
+    <div className="d-grid primaryss">
       <Button href="https://twitter.com/OnlyMiladyFans" variant="" size="lg">
         <span className='primarys'>BUY $OMF ON TWITTER</span>
       </Button>

@@ -8,16 +8,14 @@ import Image from 'next/image';
 const PostCardImage = ({ profileImage, coverPhoto, username, name }) => {
         return (
             <>
-            <div className={styles["profile-cont"]} style={{ backgroundImage: `url(${coverPhoto})` }}>
-            <div className={styles["profile-photo"]}>
-              <Image src={profileImage} width={40} height={40} alt="Profile Photo" />
-            </div>
-            <div className={styles["profile-info"]}>
-              <div className={styles["profile-name"]}>{name}</div>
-              <div className={styles["profile-username"]}>{username}</div>
-            
-            </div>
-          </div>
+          <Image src={coverPhoto} sizes="100vw"
+      style={{
+        width: '50%',
+        height: 'auto',
+        margin: '30px 120px',
+      }}
+      width={200}
+      height={200} quality={100} alt="Photo" />
           </>
         );
     }

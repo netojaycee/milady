@@ -5,22 +5,19 @@ import Image from 'next/image';
 class Picture extends Component {
     render() {
         return (
-            <div
-  style={{
-    backgroundImage: "url('/images/background.jpg')", // Assuming the image is in /public/images/
-    backgroundPosition: "center",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    width: "100%",
-    height: "auto"
-  }}
->
-
-
-            <div className={styles["profile-photo"]}>
-            </div>
-            
-          </div>
+          <Image
+          src="/images/banner.jpg"
+          sizes="100vw"
+      style={{
+        width: '100%',
+        height: 'auto',
+      }}
+      width={1280}
+      height={426}
+          quality={100}
+          alt="Photo"
+          
+        />
         );
     }
 }
