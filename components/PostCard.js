@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 const PostCard = ({ coverPhoto, videoLink }) => {
   return (
-    <Container className="d-flex justify-content-center align-items-center">
+    <Container className="d-flex justify-content-center align-items-center m-0">
       <div className={styles.postCard}>
         <video autoPlay muted loop width="90%" height="auto">
           <source src={videoLink} type="video/mp4" />

@@ -4,7 +4,7 @@ class About extends Component {
     render() {
         return (
             <div className='text-success pt-2 px-4'>
-          <h1 className='text-center'>ieatcobrAbout $OMF OnlyMiladyFans Token</h1>
+          <h1 className='text-center'>About $OMF OnlyMiladyFans Token</h1>
           <p>
           
 
