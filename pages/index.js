@@ -39,14 +39,11 @@ const Home = () => {
       ) : (
         <Container fluid className='site'>
           <Row>
-        <Col sm={2} md={2} xl={2} className='d-none d-sm-block d-flex p-16 l-header'>
+        <Col xs={0} sm={2} md={2} xl={2} className='d-none d-sm-block d-flex p-16 l-header'>
           <LeftSideBar />
         </Col>
-        <Col xs={12} sm={10} md={10} xl={10} className='border-start border-end border-secondary px-0 py-16  d-flex flex-column justify-content-center align-items-center'>
-        <div className='text-success d-flex flex-column justify-content-center align-items-center mt-3'><h1>LET&apos;S $OMF</h1>
-        <h2><a href=''>Join $OMF TELEGRAM</a></h2>
-        <h2><a href=''>Follow $OMF on TWITTER</a></h2>
-        </div>
+        <Col xs={12} sm={10} md={10} xl={10} className='border-start border-secondary px-0 py-16  d-flex flex-column justify-content-center align-items-center'>
+       
         <div className='middle-column d-flex flex-column justify-content-center align-items-center'>
         <hr/>
         <PostCard
