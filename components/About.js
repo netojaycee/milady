@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div className='text-success pt-2 px-4'>
+            <div className='text-success black mb-0 pt-2 px-4'>
           <h1 className='text-center'>About $OMF OnlyMiladyFans Token</h1>
           <p>
           

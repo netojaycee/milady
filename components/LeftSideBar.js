@@ -13,7 +13,7 @@ const LeftSideBar = () => {
    
     
     
-    <div>
+    <div className='black'>
         
         {/* <div>
          <button className={styles["l-button"]}></button>

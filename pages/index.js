@@ -12,39 +12,16 @@ import About from '@/components/About';
 import Picture from '@/components/Picture';
 
 const Home = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const spinner = document.getElementById('spinner');
-    if (spinner) {
-      setTimeout(() => {
-        spinner.style.display = 'none';
-        setLoading(false);
-      }, 2000);
-    }
-  }, []);
-
   return (
-    
-    <div>
-      {loading ? (
-        <div id='spinner' className='containerr'>
-          <Image
-            className='loading'
-            src="/images/preloader.png"
-            width={223}
-            height={126}
-          />
-        </div>
-      ) : (
+  
         <Container fluid className='site'>
           <Row>
-        <Col xs={0} sm={2} md={2} xl={2} className='d-none d-sm-block d-flex p-16 l-header'>
+        <Col xs={0} sm={2} md={2} xl={2} className='d-none d-sm-block d-flex p-16 black l-header'>
           <LeftSideBar />
         </Col>
         <Col xs={12} sm={10} md={10} xl={10} className='border-start border-secondary px-0 py-16  d-flex flex-column justify-content-center align-items-center'>
-       
-        <div className='middle-column d-flex flex-column justify-content-center align-items-center'>
+       <div className='middle-column'> </div>
+        <div className='d-flex flex-column justify-content-center align-items-center'>
         <hr/>
         <PostCard
               profileImage="/images/2.jpg"
@@ -146,21 +123,14 @@ const Home = () => {
         /> */}
         <ButtonLink />
         
-
         </div>
-    
-<About />
-         <hr />
-
-<Picture />
-      
+       
 
         </Col>
         
         </Row>
         </Container>
-      )}
-    </div>
+    
   );
 };
 
